@@ -7,9 +7,7 @@ RUN apt-get update && apt-get install -y \
   build-essential \
   libpq-dev \
   ncurses-dev \
-  python3.4-dev \
-  python3.4-venv \
   python3.5-dev \
   python3.5-venv
 
-CMD ["python3.4"]
+CMD ["python3.5"]
